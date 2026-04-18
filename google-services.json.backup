@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92507018209",
+    "project_id": "lost-found-new-c0961",
+    "storage_bucket": "lost-found-new-c0961.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92507018209:android:c05ddf49b6f22147dc38a0",
+        "android_client_info": {
+          "package_name": "com.example.lost_and_found"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh-bML9TJHp_5zMaG0mtketbxiOV2GbPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92507018209:android:d7a944321114259edc38a0",
+        "android_client_info": {
+          "package_name": "com.example.lost_and_found_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh-bML9TJHp_5zMaG0mtketbxiOV2GbPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
