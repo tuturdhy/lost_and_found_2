@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // Couleurs principales
-  static const Color primary = Color(0xFF1A1A2E);
-  static const Color accent = Color(0xFFE94560);
-  static const Color lostColor = Color(0xFFFF4757);
-  static const Color foundColor = Color(0xFF2ED573);
-  static const Color cardBg = Color(0xFF16213E);
-  static const Color surface = Color(0xFF0F3460);
-  static const Color textPrimary = Color(0xFFFFFFFF);
-  static const Color textSecondary = Color(0xFF94A3B8);
-  static const Color divider = Color(0xFF1E293B);
+  // Couleurs principales - Thème Blanc & Rouge
+  static const Color primary = Color(0xFFFFFFFF);       // Fond blanc
+  static const Color accent = Color(0xFFE53935);         // Rouge principal
+  static const Color lostColor = Color(0xFFE53935);      // Rouge
+  static const Color foundColor = Color(0xFF43A047);     // Vert
+  static const Color cardBg = Color(0xFFF5F5F5);         // Gris très clair
+  static const Color surface = Color(0xFFFFEBEE);        // Rouge très clair
+  static const Color textPrimary = Color(0xFF212121);    // Texte noir
+  static const Color textSecondary = Color(0xFF757575);  // Texte gris
+  static const Color divider = Color(0xFFE0E0E0);        // Séparateur gris clair
 
   static ThemeData get darkTheme {
     return ThemeData(
       useMaterial3: true,
-      brightness: Brightness.dark,
+      brightness: Brightness.light,
       scaffoldBackgroundColor: primary,
-      colorScheme: const ColorScheme.dark(
+      colorScheme: const ColorScheme.light(
         primary: accent,
         secondary: surface,
         surface: cardBg,
