@@ -167,9 +167,26 @@ class _LoginScreenState extends State<LoginScreen>
                   ),
                 ),
                 const SizedBox(height: 32),
-                // Bouton connexion
-                SizedBox(
+                // Bouton connexion avec glow
+                Container(
                   width: double.infinity,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16),
+                    boxShadow: [
+                      BoxShadow(
+                        color: const Color(0xFFE53935).withOpacity(0.5),
+                        blurRadius: 20,
+                        spreadRadius: 2,
+                        offset: const Offset(0, 6),
+                      ),
+                      BoxShadow(
+                        color: const Color(0xFFE53935).withOpacity(0.3),
+                        blurRadius: 40,
+                        spreadRadius: 4,
+                        offset: const Offset(0, 2),
+                      ),
+                    ],
+                  ),
                   child: ElevatedButton(
                     onPressed: _loading ? null : _login,
                     child: _loading
